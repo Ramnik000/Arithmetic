@@ -15,6 +15,13 @@ import java.util.Scanner;
  */
 public class ArithmeticBase 
 {
+    public enum Operator{
+        PLUS,
+        MINUS,
+        TIMES,
+        DIVIDE
+    }
+    
  public double x,y;
     double calculate(double x, double y) 
         {
